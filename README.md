@@ -108,3 +108,11 @@ springdoc:
 출금 실패 시 롤백 처리 기능 포함 → 이중 트랜잭션 시뮬레이션 가능
 
 API 호출 시 거래 내역이 실시간으로 생성되며, 카테고리·내용 등을 자동 저장
+
+## 관련 레포지토리
+
+| 서비스 | 레포지토리 |
+|--------|-------------|
+| 🌐 Finday 프론트엔드 | [`finday-frontend`](https://github.com/tpdus751/finday-frontend) |
+| 🧠 Finday 백엔드 | [`finday-backend`](https://github.com/your-tpdus751/finday-backend) |
+| 💳 은행 서버 | [`finday-bank-kb`](https://github.com/tpdus751/finday-bank-kb) |
