@@ -10,6 +10,9 @@
 
 ## 아키텍처
 
+<img width="1320" height="651" alt="image" src="https://github.com/user-attachments/assets/5d416993-ca75-460a-8eaf-9a72dac0a886" />
+
+
 ```
 사용자 → Finday 프론트엔드 → Finday 서버 → 금융결제원 게이트웨이 → 🏦 Finday-Bank-Server
 ```
