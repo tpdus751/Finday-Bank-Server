@@ -22,19 +22,6 @@
 
 ---
 
-## 프로젝트 구조
-
-```
-com.finday.bank.kookmin
-├── controller // 외부 API 엔드포인트 (계좌, 카드, 이체, 거래 등)
-├── dto // 요청/응답 DTO
-├── entity // DB Entity 클래스
-├── repository // JPA Repository 인터페이스
-├── service // 비즈니스 로직
-```
-
----
-
 ##  핵심 기능
 
 | 기능 | 설명 | URI |
@@ -46,6 +33,19 @@ com.finday.bank.kookmin
 | 출금 롤백 | 입금 실패 시 출금 금액 원복 | `POST /kookmin/cancel-withdraw` |
 | 결제 처리 | 계좌 또는 카드로 결제 수행 | `POST /kookmin/pay` |
 | 거래내역 조회 | 최근 30일 또는 특정 월의 거래 내역 반환 | `GET /kookmin/transaction` |
+
+---
+
+## 프로젝트 구조
+
+```
+com.finday.bank.kookmin
+├── controller // 외부 API 엔드포인트 (계좌, 카드, 이체, 거래 등)
+├── dto // 요청/응답 DTO
+├── entity // DB Entity 클래스
+├── repository // JPA Repository 인터페이스
+├── service // 비즈니스 로직
+```
 
 ---
 
