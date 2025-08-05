@@ -118,10 +118,13 @@ API 호출 시 거래 내역이 실시간으로 생성되며, 카테고리·내�
 ```
 
 
-## 관련 레포지토리
+## 📁 관련 레포지토리
 
-| 서비스 | 레포지토리 |
-|--------|-------------|
-| 🌐 Finday 프론트엔드 | [`finday-frontend`](https://github.com/tpdus751/finday-frontend) |
-| 🧠 Finday 백엔드 | [`finday-backend`](https://github.com/your-tpdus751/finday-backend) |
-| 💳 은행 서버 | [`finday-bank-kb`](https://github.com/tpdus751/finday-bank-kb) |
+| 서비스 구분 | 설명 | 레포지토리 |
+|-------------|------|-------------|
+| 🌐 Finday 프론트엔드 | React 기반 사용자 웹 서비스 | [`Finday_frontend`](https://github.com/tpdus751/Finday_frontend) |
+| 🧠 Finday 백엔드 | Spring Boot 기반 핵심 비즈니스 로직 서버 | [`Finday_backend`](https://github.com/tpdus751/Finday_backend) |
+| 🧪 얼굴 인증 Flask 서버 | DeepFace 기반 사용자 얼굴 인증 처리 | [`Finday-Flask-Face-Verification-DeepFace`](https://github.com/tpdus751/Finday-Flask-Face-Verification-DeepFace) |
+| 🏦 가상 금융결제원 중계 서버 | 은행 API 통합 게이트웨이 (Spring WebFlux 기반) | [`Finday-Kftc-Gateway`](https://github.com/tpdus751/Finday-Kftc-Gateway) |
+| 🏛️ 은행 서버 (예: 국민은행) | 각 은행별 API를 제공하는 독립 서버 | [`Finday-Bank-Server`](https://github.com/tpdus751/Finday-Bank-Server) |
+
