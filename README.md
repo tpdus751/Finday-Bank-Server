@@ -22,6 +22,14 @@
 
 ---
 
+## Swagger API 문서
+
+<img width="1787" height="581" alt="image" src="https://github.com/user-attachments/assets/7ac6de29-bb9b-42cb-b20e-c09be4854dc9" />
+
+- Swagger를 통해 API 명세를 제공합니다.
+
+---
+
 ##  핵심 기능
 
 | 기능 | 설명 | URI |
@@ -53,14 +61,6 @@ com.finday.bank.kookmin
 
 - 이 서버는 **외부 직접 접근 불가**를 전제로 하며, 모든 요청은 `금융결제원 서버`를 통해 들어옵니다.
 - JWT 등 인증 처리는 상위 서버(Finday 서버)에서 수행됩니다.
-
----
-
-## Swagger API 문서
-
-<img width="1787" height="581" alt="image" src="https://github.com/user-attachments/assets/7ac6de29-bb9b-42cb-b20e-c09be4854dc9" />
-
-- Swagger를 통해 API 명세를 제공합니다.
 
 ---
 
